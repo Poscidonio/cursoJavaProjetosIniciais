@@ -1,0 +1,10 @@
+package curso_programacao_topicos_basicos;
+
+public class Exemplo_funcao {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

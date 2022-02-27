@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Exercicio_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite um numero:");
+		int a = sc.nextInt();
+		
+		if( a < 0) {
+			System.out.println("Negativo" + a);
+		}
+		else {
+			System.out.println("Positvo " + a );
+		}
+		}
+
+	}
+
+}

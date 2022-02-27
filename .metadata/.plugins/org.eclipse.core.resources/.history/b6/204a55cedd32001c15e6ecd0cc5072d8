@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Exercicio_3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite dois numeros inteiros:");
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		
+		int c = a % b;
+		
+		if(c ==0) {
+			System.out.println("Os numeros sao multiplos");
+		}
+		else {
+			System.out.println("Os numeor NAO sao multiplos");
+		}
+
+	}
+
+}
