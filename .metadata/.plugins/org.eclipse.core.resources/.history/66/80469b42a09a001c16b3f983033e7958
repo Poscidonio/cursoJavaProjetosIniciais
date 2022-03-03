@@ -1,0 +1,40 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Exercicio_8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//necessario digitar com ponto 
+		Locale.setDefault(Locale.US);
+		
+		//entrada de dados
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite o salario:");
+		double salario = sc.nextDouble();
+		double ir1;
+		double ir2;
+		double ir3;
+		
+		//salario menor que 2000 = isento
+		if(salario > 0.00 && salario < 2000.00) {
+			System.out.println("Seu salario é Isento de impostos");
+			//se o salario for maior que 2000 é calculado o imposto somente sobre o excedente no caso ate 1000
+			}else if(salario > 2000.00 && salario < 3000.00) {
+				ir1 = (salario - 2000.00) * 0.08;
+				System.out.printf("A taxa de impostos do seu salario é: %.2f%n" , ir1);
+				//se o salario for maior que 3000 é calculado o imposto de 1000 sobre 8% e o excedente sobre 18% no caso ate 1500
+				}else if(salario > 3000.00 && salario < 4500.00){
+					ir2 = ((salario - 3000) * 0.18) + (1000 * 0.08);
+					System.out.printf("A taxa de impostos do seu salario é: %.2f%n" , ir2);
+					//se o salario for mairo que 4500 é calculado o imposto de 1000 sobre 8% e o 1500 sobre  18% e o excedente sobre 28%
+					}else {
+						ir3 = ((salario - 4500) * 0.28) + (1000 * 0.08) + (1500 * 0.18);
+						System.out.printf("A taxa de impostos do seu salario é: %.2f%n" , ir3);
+						}
+		sc.close();
+	}
+
+}
