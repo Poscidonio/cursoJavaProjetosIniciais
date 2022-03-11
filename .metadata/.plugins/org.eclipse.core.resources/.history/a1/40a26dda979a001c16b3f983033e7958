@@ -1,8 +1,0 @@
-package entities;
-
-public class Grade {
-	public double n1;
-	public double n2;
-	public double n3;
-
-}
