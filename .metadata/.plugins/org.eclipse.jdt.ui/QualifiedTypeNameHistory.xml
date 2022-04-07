@@ -1,24 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="Main"/>
-    <fullyQualifiedTypeName name="java.lang.StrictMath"/>
-    <fullyQualifiedTypeName name="java.lang.Cloneable"/>
-    <fullyQualifiedTypeName name="javax.crypto.Cipher"/>
-    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="entities.Triangulo"/>
-    <fullyQualifiedTypeName name="java.lang.FdLibm.Pow"/>
-    <fullyQualifiedTypeName name="entities.Rectangle"/>
-    <fullyQualifiedTypeName name="entities.Employee"/>
-    <fullyQualifiedTypeName name="java.lang.Double"/>
-    <fullyQualifiedTypeName name="entities.Grade"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="util.Calculator"/>
-    <fullyQualifiedTypeName name="javax.tools.DocumentationTool.Location"/>
-    <fullyQualifiedTypeName name="java.util.Locale"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="util.CurrencyConverter"/>
-    <fullyQualifiedTypeName name="entities.Product"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-</qualifiedTypeNameHistroy>
+<qualifiedTypeNameHistroy/>
