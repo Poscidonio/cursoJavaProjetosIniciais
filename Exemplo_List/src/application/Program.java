@@ -44,8 +44,8 @@ public class Program {
 		System.out.println("-------------------");
 		System.out.println("Index of Bob: " + list.indexOf("Bob"));
 		
-		//quando nao encontra o elemento em nehuma posição o
-		System.out.println("Index of Bob: " + list.indexOf("Bob"));
+		//quando nao encontra o elemento em nehuma posição a funcao retorna -1
+		System.out.println("Index of Bob: " + list.indexOf("Ana"));
 
 	}
 
