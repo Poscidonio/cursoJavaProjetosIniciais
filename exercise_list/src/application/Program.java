@@ -19,7 +19,7 @@ public class Program {
 		System.out.println("How many employee will be registered? ");
 		int n = sc.nextInt();
 
-		for (int i = 0; i <= n; i++) {
+		for (int i = 0; i < n; i++) {
 			System.out.println("Employee #" + i + ":");
 			System.out.print("ID :");
 			int id = sc.nextInt();
@@ -27,6 +27,7 @@ public class Program {
 				System.out.println("Id alredy taken. Try again: ");
 				id = sc.nextInt();
 			}
+			sc.nextLine();
 			System.out.print("Name :");
 			String name = sc.nextLine();
 			System.out.print("Salary :");
