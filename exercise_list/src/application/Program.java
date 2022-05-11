@@ -23,6 +23,7 @@ public class Program {
 			System.out.println("Employee #" + i + ":");
 			System.out.print("ID :");
 			int id = sc.nextInt();
+			//this part is the id validation
 			while (hasId(list, id)){
 				System.out.println("Id alredy taken. Try again: ");
 				id = sc.nextInt();
@@ -34,10 +35,11 @@ public class Program {
 			double salary = sc.nextDouble();
 			list.add(new Employee(id, name, salary));
 		}
-		System.out.print("Enter the employee id that will have sallary increse :");
+		System.out.print("Enter the employee id that will have salary increse :");
 		int localeId = sc.nextInt(); 
+		//locate the first id for increaser the percentage in salary
 		Employee emp = list.stream().filter(x -> x.getId() == localeId).findFirst().orElse(null);
-		
+		//validation id existing
 		if(emp == null) {
 			System.out.println("This ID does not exist!!!");
 		} else {
@@ -53,7 +55,7 @@ public class Program {
 		
 		sc.close();
 	}
-	
+	//the functiopn utilizade for validation id already exisiting
 	public static boolean hasId(List<Employee> list, int id) {
 		Employee emp = list.stream().filter(x -> x.getId() == id).findFirst().orElse(null);
 		return emp != null;
